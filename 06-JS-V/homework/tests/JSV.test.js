@@ -48,7 +48,7 @@ describe('crearInstanciaPersona()', function() {
 describe('agregarMetodo(Persona)', function() {
 	it('should add the method datos to the constructor', function() {
 		agregarMetodo();
-		const persona = new Persona("Juan", "Pérez", 22, "Saavedra 123");
+		const persona = new Persona("Juan", "Pérez",' 22', "Saavedra 123");
 		expect(persona.datos()).toBe('Juan, 22 años');
 	});
 });
